@@ -2,21 +2,12 @@
 using namespace std;
 int main()
 {
-    string text1,text2;
-    int N,count=0;
-    cout << "Enter the first text : ";
-    cin >> text1;
-    cout << "Enter the second text : ";
-    cin >> text2;
-    cout << "Enter N : ";
-    cin >> N;
-    while(count<N){
-        if(count%2==0){
-            cout << "text1 ";
-        }else{
-            cout << "text2 ";
-        }
-        count=count+1;
+    float x=2;
+    float y=0;
+    while(x<=69){
+        y=(1/x)+y;
+        x=x+1;
     }
+    cout << "sum = " << y;
     return 0;
-}
+} 
